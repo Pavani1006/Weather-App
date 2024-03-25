@@ -1,0 +1,54 @@
+.main{
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("./fi.avif");
+  background-repeat: no-repeat;
+  background-size: 1550px;
+}
+.searchbar{
+  display: flex;
+  padding-left: 30px;
+  justify-content: center;
+  gap: 20px;
+}
+#text{
+  padding: 15px;
+  border-radius: 25px;
+  width: 180px;
+  text-transform: capitalize;
+  font-size: medium;
+}
+button{
+  padding: 15px;
+  border-radius: 80px;
+  width: 50px;
+}
+.container{
+  background: rgba(248, 250, 251, 0.416);
+  min-width: 450px;
+  text-align: center;
+  border-radius: 30px;
+  box-shadow:10px 10px 12px rgba(66, 67, 67, 0.589);
+}
+#text,button{
+  border: none;
+  outline: none;
+}
+
+.card{
+  font-weight: 600;
+  font-size: 30px;
+  text-transform: capitalize;
+}
+@media screen and (max-width: 600px) {
+  .container{
+    background: rgba(248, 250, 251, 0.573);
+    min-width: 350px;
+    box-shadow: 10px 10px 10px rgba(46, 46, 46, 0.589);
+  }
+}
+/* background-image:linear-gradient(rgba(0, 0 ,0,0.6),rgba(0, 0, 0, 0.6)),url('6.jpg'); */
